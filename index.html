@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Nexus Point</title>
+
+    <!-- Open Sans Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Material Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <!-- Header -->
+      <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+          <span class="material-icons-outlined">menu</span>
+        </div>
+        <div class="header-left">
+          <span class="material-icons-outlined">search</span>
+          <input
+            type="text"
+            id="searchInput"
+            class="search-input"
+            placeholder="Search..."
+          />
+        </div>
+        <div class="header-right">
+          <span class="material-icons-outlined">notifications</span>
+          <span class="material-icons-outlined">email</span>
+          <span class="material-icons-outlined">account_circle</span>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+            <span class="material-icons-outlined">bubble_chart</span> TheNexus
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()"
+            >close</span
+          >
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            <a href="index.html">
+              <span class="material-icons-outlined">dashboard</span> Dashboard
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="https://iitg.ac.in/sa/techboard/">
+              <span class="material-icons-outlined">leaderboard</span>
+              Leaderboard
+            </a>
+          </li>
+
+          <li class="sidebar-list-item">
+            <a href="https://iitg.ac.in/sa/techboard/">
+              <span class="material-icons-outlined">phone</span> Support
+            </a>
+          </li>
+
+          <li class="sidebar-list-item">
+            <a href="#">
+              <span class="material-icons-outlined">settings</span> Settings
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <!-- End Sidebar -->
+
+      <!-- Main -->
+      <main class="main-container">
+        <div class="main-title">
+          <h1 style="font-family: Georgia, 'Times New Roman', Times, serif">
+            CLUBS
+          </h1>
+        </div>
+
+        <div class="main-cards">
+          <div class="card">
+            <div class="card-inner">
+              <h1>E-CELL</h1>
+              <span class="material-icons-outlined">payments</span>
+            </div>
+            <h2><a href="https://www.ecelliitg.in/index.html">Website</a></h2>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h1>CODING CLUB</h1>
+              <span class="material-icons-outlined">terminal</span>
+            </div>
+            <h2>
+              <a
+                href="https://www.iitg.ac.in/stud/gymkhana/technical/home/CodingHome.html"
+                >Website</a
+              >
+            </h2>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h1>CONSULTING & ANALYTICS</h1>
+              <span class="material-icons-outlined">groups</span>
+            </div>
+            <h2><a href="https://www.caciitg.com">Website</a></h2>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h1>ELECTRONICS CLUB</h1>
+              <span class="material-icons-outlined">cable</span>
+            </div>
+            <h2>
+              <a href="https://www.instagram.com/electronicsclubiitg/?hl=en"
+                >Insta</a
+              >
+            </h2>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h1>DEBSOC</h1>
+              <span class="material-icons-outlined">campaign</span>
+            </div>
+            <h2>
+              <a
+                href="https://www.linkedin.com/company/debating-society-iit-guwahati/"
+                >LinkedIn</a
+              >
+            </h2>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h1>IITG.AI</h1>
+              <span class="material-icons-outlined">psychology</span>
+            </div>
+            <h2><a href="https://iitg-ai-society.vercel.app">Website</a></h2>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h1>WHITESPACE</h1>
+              <span class="material-icons-outlined">brush</span>
+            </div>
+            <h2>
+              <a href="https://www.instagram.com/white.space_design/?hl=en"
+                >Insta</a
+              >
+            </h2>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h1>FINANCE & ECONOMICS</h1>
+              <span class="material-icons-outlined">paid</span>
+            </div>
+            <h2>
+              <a href="https://www.instagram.com/fec_iitg/?hl=en">Insta</a>
+            </h2>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h1>ROBOTICS</h1>
+              <span class="material-icons-outlined">smart_toy</span>
+            </div>
+            <h2>
+              <a
+                href="https://www.iitg.ac.in/stud/gymkhana/technical/home/RoboticsHome.html"
+                >Website</a
+              >
+            </h2>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h1>AERO MODELLING</h1>
+              <span class="material-icons-outlined">flight</span>
+            </div>
+            <h2>
+              <a
+                href="https://www.iitg.ac.in/stud/gymkhana/technical/home/AeroHome.html"
+                >Website</a
+              >
+            </h2>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h1>ACUMEN</h1>
+              <span class="material-icons-outlined">quiz</span>
+            </div>
+            <h2>
+              <a
+                href="https://www.iitg.ac.in/stud/gymkhana/technical/home/AcumenHome.html"
+                >Website</a
+              >
+            </h2>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h1>EQUINOX</h1>
+              <span class="material-icons-outlined">hotel_class</span>
+            </div>
+            <h2>
+              <a
+                href="https://www.iitg.ac.in/stud/gymkhana/technical/home/EquinoxHome.html"
+                >Website</a
+              >
+            </h2>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h1>4i-LAB</h1>
+              <span class="material-icons-outlined">science</span>
+            </div>
+            <h2>
+              <a
+                href="https://www.iitg.ac.in/stud/gymkhana/technical/home/4iHome.html"
+                >Website</a
+              >
+            </h2>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h1>CADENCE</h1>
+              <span class="material-icons-outlined">emoji_people</span>
+            </div>
+            <h2>
+              <a href="https://www.instagram.com/iitgcadence/?hl=en">Insta</a>
+            </h2>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h1>XPRESSIONS</h1>
+              <span class="material-icons-outlined">face</span>
+            </div>
+            <h2>
+              <a
+                href="https://www.iitg.ac.in/stud/gymkhana/Cultural%20Board/drama.html"
+                >Website</a
+              >
+            </h2>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <h1>IITG RACING</h1>
+              <span class="material-icons-outlined">directions_car</span>
+            </div>
+            <h2><a href="https://iitg.ac.in/sa/iitgracing/">Website</a></h2>
+          </div>
+        </div>
+      </main>
+      <!-- End Main -->
+    </div>
+
+    <!-- Scripts -->
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+    <script>
+      const searchInput = document.getElementById("searchInput");
+      const cards = document.querySelectorAll(".card");
+
+      // Add event listener for the input event
+      searchInput.addEventListener("input", function () {
+        const searchValue = this.value.toLowerCase();
+
+        // Loop through each card and check if the search value matches the card's title
+        cards.forEach(function (card) {
+          const title = card.querySelector("h1").textContent.toLowerCase();
+          if (title.includes(searchValue)) {
+            card.style.display = "block"; // Show the card if it matches the search value
+          } else {
+            card.style.display = "none"; // Hide the card if it doesn't match
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
